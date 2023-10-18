@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{align-content: center;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: 0px 850px;
+	}
+
+
+.container{
+	width: 1000px;
+	height: 620px;
+	margin-top: 40px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 50px;
+
+	}
+
+.imgContainer{
+	width: 800px;
+	height: 380px;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-color:;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+.imgclick{background-color: ;
+	width: auto;}
+.imgclick:hover{cursor: url(/water.png), pointer;}
+
+img.png{height: 95%}
+
+.control-row-button {
+    position: absolute;
+    top: 250px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 10px;
+
+  }
+  
+  .control-row-button button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #arrow-left {
+    margin-left: 0;
+  }
+  
+  #arrow-right {
+    margin-right: 0;
+  }
+
+.control-row{font-size: 1.5rem;}
+
+.status-message {  margin: 10px;
+   font-size: 1.5rem;
+   letter-spacing: -0rem;
+   font-family:'KyoboHand'; }
+
+.contols{width: 500px;
+	height: 200px;
+	margin-top: 30px;
+	text-align: center;
+	background-color: whitesmoke;
+	}}
+
+
+.water-gauge {
+    height: 100%;
+    width: 0; /* Initial width of the water gauge */
+    border-radius: 10px;
+    background-color: #4caf50;
+  }
+
+
+h1{ margin: 20px;
+	font-size: 2rem;
+   letter-spacing: -0rem;
+   font-family:'KyoboHand'; }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>다육이 키우기</title>
+	<link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+	<div class="container">
+		<h1> 다육이를 골라 키워봐요 </h1>
+		<div class ="imgContainer"
+			id="img1"
+			alt="img-1">
+			<div class="imgContainer" id="imgContainer" alt="img-1">
+			<div class="imgclick"
+				onclick="waterCactus()">
+		    	<img src="선인장1.png" class="png">
+		    </div>
+		    <div class="control-row-button">
+		      <button id="arrow-left" onclick="showImage(-1)">&#9664;</button>
+		      <button id="arrow-right" onclick="showImage(1)">&#9654;</button>
+		    </div>
+
+		  </div>
+		</div>
+
+	<div class ="controls">
+		<div class="status-message" id="statusMessage"></div>
+
+      	<div class="control-row">
+      		<div class="status-message" id="status-message">
+      		</div>
+
+       		<label for="sunlight-slider">☀️</label>
+        	<input type="range" id="sunlight-slider" min="0" max="100">
+      	</div>
+
+
+     	<div class="control-row">
+        		<div class="water-gauge">
+          			<label for="water-gauge">🚿</label>
+          			<progress id="water-gauge" value="0" max="100"></progress>
+        		</div>
+     	</div>
+
+      		
+   		</div>
+  </div>
+	<script src="script1.js"></script>
+</body>
+</html>
